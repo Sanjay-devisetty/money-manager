@@ -1,0 +1,139 @@
+/* Write your CSS here */
+.app-bg-container {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.profile-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  height: 30vh;
+  background-size: cover;
+  border-radius: 12px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.profile-name {
+  font-family: 'Roboto';
+  color: #475569;
+  font-size: 28px;
+}
+
+.welcome-message {
+  font-family: 'Roboto';
+  color: #475569;
+  font-size: 15px;
+}
+
+.welcome-message-span-element {
+  color: #0b69ff;
+  font-weight: 600;
+}
+
+.bottom-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-container {
+  border: 1px solid #73858e;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 12px;
+  min-width: 450px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.transaction-heading {
+  font-family: 'Roboto';
+  color: #3e4155;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.label {
+  font-family: 'Roboto';
+  color: #7e858e;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.text-bar {
+  margin-top: 10px;
+  margin-bottom: 25px;
+  border: 1px solid #7e858e;
+  height: 30px;
+  width: 320px;
+  padding-left: 5px;
+}
+
+::placeholder {
+  font-family: 'Roboto';
+  color: #7e858e;
+  font-size: 15px;
+}
+
+.add-button {
+  border: 0px;
+  background-color: #0b69ff;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+  height: 30px;
+  width: 50px;
+  border-radius: 5px;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.history-container {
+  border: 1px solid #73858e;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 12px;
+  min-width: 650px;
+  display: flex;
+  flex-direction: column;
+}
+
+.history-heading {
+  font-family: 'Roboto';
+  color: #3e4155;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.history-titles {
+  border: 1px solid #73858e;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.history-titles-name {
+  font-family: 'Roboto';
+  color: #3e4155;
+  font-size: 15px;
+  font-weight: 600;
+  padding-right: 80px;
+}
+
+.transaction-list-container {
+  padding-left: 0px;
+}
